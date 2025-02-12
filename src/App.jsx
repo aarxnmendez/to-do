@@ -56,7 +56,7 @@ function App() {
           Todas
         </button>
         <button onClick={() => setFilter("active")} className={filter === "active" ? "active" : ""}>
-          Activas
+          Pendientes
         </button>
         <button onClick={() => setFilter("completed")} className={filter === "completed" ? "active" : ""}>
           Completadas
